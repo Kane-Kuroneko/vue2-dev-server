@@ -23,7 +23,7 @@
 import { reaxel_tic_tac_toe } from './reaxel/tic-tac-toe.reaxel';
 import { reaxper } from 'reaxes-vue2';
 
-const { checkerboard , place , play,store:store$ticTicToe ,winner } = reaxel_tic_tac_toe();
+const { place , play,store:store$ticTicToe ,winner } = reaxel_tic_tac_toe();
 export default reaxper({
 	data(){
 		const { checkerboard,store:store$ticTicToe ,winner } = reaxel_tic_tac_toe();
