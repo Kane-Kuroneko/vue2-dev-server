@@ -155,15 +155,12 @@ export default {
 			// directory : path.resolve(rootPath , 'dist')
 		} ,
 		compress : false ,
-		port : 8080 ,
-		server : "https" ,
-		host : '0.0.0.0' ,
+		port : 3000 ,
+		server : "http" ,
 		hot : true ,
 		open : false ,
 		allowedHosts: "all",
-		bonjour : true ,
 		historyApiFallback : true ,
-		
 	} ,
 	plugins: [
 		new VueLoaderPlugin(),
